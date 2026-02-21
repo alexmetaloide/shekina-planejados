@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-cursive: "Dancing Script", cursive;
+  
+  --color-wood-900: #3E2723;
+  --color-wood-800: #4E342E;
+  --color-wood-700: #5D4037;
+  --color-wood-600: #6D4C41;
+  --color-wood-500: #795548;
+  --color-wood-400: #8D6E63;
+  --color-wood-300: #A1887F;
+  --color-wood-200: #BCAAA4;
+  --color-wood-100: #D7CCC8;
+  --color-wood-50: #EFEBE9;
+  
+  --color-bg-light: #FDFBF7;
+}
+
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-wood-900);
+}
