@@ -16,6 +16,7 @@ export default function App() {
     { img: '/img2/Gemini_Generated_Image_c30qxec30qxec30q.png', title: 'Design de Interiores', desc: 'Beleza e Conforto' },
     { img: '/img2/Gemini_Generated_Image_rycb4frycb4frycb.png', title: 'Acabamento Premium', desc: 'Excelente Durabilidade' },
     { img: '/img2/unnamed.jpg', title: 'Projeto Personalizado', desc: 'Feito para Você' },
+    { img: '/uploads/projeto-sala-estar.jpeg', title: 'Sala de Estar Shekiná', desc: 'Buffet e Painel Sob Medida' },
   ];
 
   const visibleProjects = showMoreProjects ? projects : projects.slice(0, 6);
@@ -37,7 +38,6 @@ export default function App() {
                 <path d="M12 6c1.5-2 3-2 3-2s1 1.5 1 3" />
                 <path d="M9 22c1-1.5 2-1.5 3-1.5s2 0 3 1.5" />
               </svg>
-              {/* Decorative line mimicking the logo's root swirl */}
               <div className="absolute -bottom-1 -right-2 w-6 h-6 border-b-[1.5px] border-r-[1.5px] border-wood-800 rounded-br-full transform rotate-12"></div>
             </div>
             <div className="text-center">
@@ -226,7 +226,6 @@ export default function App() {
             <p className="text-wood-300 leading-relaxed mb-6 max-w-sm">
               Marcenaria especializada em móveis sob medida de alto padrão. Qualidade, design e compromisso com o seu sonho.
             </p>
-
           </div>
 
           <div>
