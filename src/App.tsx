@@ -16,7 +16,11 @@ export default function App() {
     { img: '/img2/Gemini_Generated_Image_c30qxec30qxec30q.png', title: 'Design de Interiores', desc: 'Beleza e Conforto' },
     { img: '/img2/Gemini_Generated_Image_rycb4frycb4frycb.png', title: 'Acabamento Premium', desc: 'Excelente Durabilidade' },
     { img: '/img2/unnamed.jpg', title: 'Projeto Personalizado', desc: 'Feito para Você' },
+<<<<<<< HEAD
     { img: '/uploads/projeto-sala-estar.jpeg', title: 'Sala de Estar Shekiná', desc: 'Buffet e Painel Sob Medida' },
+=======
+    { img: '/img2/sala_planejada.jpg', title: 'Sala Planejada', desc: 'Conforto e Elegância' },
+>>>>>>> 4ce1e3a (feat: add new portfolio project 'Sala Planejada')
   ];
 
   const visibleProjects = showMoreProjects ? projects : projects.slice(0, 6);
@@ -52,10 +56,10 @@ export default function App() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8 items-center">
-            <a href="#home" className="text-wood-700 hover:text-wood-900 transition-colors font-medium text-sm tracking-wide uppercase">Início</a>
-            <a href="#sobre" className="text-wood-700 hover:text-wood-900 transition-colors font-medium text-sm tracking-wide uppercase">Sobre</a>
-            <a href="#portfolio" className="text-wood-700 hover:text-wood-900 transition-colors font-medium text-sm tracking-wide uppercase">Portfólio</a>
-            <a href="#contato" className="bg-wood-800 text-bg-light px-6 py-2.5 rounded-sm hover:bg-wood-900 transition-colors font-medium text-sm tracking-wide uppercase">
+            <a href="#home" className="text-wood-700 hover:text-wood-950 active:text-wood-950 transition-all font-medium text-sm tracking-wide uppercase underline-offset-8 hover:underline decoration-wood-950 decoration-2">Início</a>
+            <a href="#sobre" className="text-wood-700 hover:text-wood-950 active:text-wood-950 transition-all font-medium text-sm tracking-wide uppercase underline-offset-8 hover:underline decoration-wood-950 decoration-2">Sobre</a>
+            <a href="#portfolio" className="text-wood-700 hover:text-wood-950 active:text-wood-950 transition-all font-medium text-sm tracking-wide uppercase underline-offset-8 hover:underline decoration-wood-950 decoration-2">Portfólio</a>
+            <a href="#contato" className="bg-wood-950 text-bg-light px-6 py-2.5 rounded-sm hover:bg-wood-900 transition-colors font-medium text-sm tracking-wide uppercase">
               Orçamento
             </a>
           </nav>
