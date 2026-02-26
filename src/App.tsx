@@ -16,7 +16,6 @@ export default function App() {
     { img: '/img2/Gemini_Generated_Image_c30qxec30qxec30q.png', title: 'Design de Interiores', desc: 'Beleza e Conforto' },
     { img: '/img2/Gemini_Generated_Image_rycb4frycb4frycb.png', title: 'Acabamento Premium', desc: 'Excelente Durabilidade' },
     { img: '/img2/unnamed.jpg', title: 'Projeto Personalizado', desc: 'Feito para Você' },
-    { img: '/uploads/projeto-sala-estar.jpeg', title: 'Sala de Estar Shekiná', desc: 'Buffet e Painel Sob Medida' },
     { img: '/img2/sala_planejada.jpg', title: 'Sala Planejada', desc: 'Conforto e Elegância' },
   ];
 
